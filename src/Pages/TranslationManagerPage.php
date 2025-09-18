@@ -68,7 +68,7 @@ class TranslationManagerPage extends Page
 
     protected $listeners = [TranslationEditForm::EVENT_TRANSLATIONS_SAVED => 'translationsSaved'];
 
-    protected static string $view = 'filament-translation-manager::pages.translation-manager-page';
+    protected string $view = 'filament-translation-manager::pages.translation-manager-page';
 
     public static function shouldRegisterNavigation(): bool
     {
@@ -99,7 +99,7 @@ class TranslationManagerPage extends Page
             config('filament-translation-manager.navigation_icon', 'heroicon-o-language');
     }
 
-    public static function getTitle(): string
+    public function getTitle(): string
     {
         return __('filament-translation-manager::messages.title');
     }
