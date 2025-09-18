@@ -1,5 +1,5 @@
 {
-    "name": "statikbe/laravel-filament-chained-translation-manager",
+    "name": "eg-mohamed/laravel-filament-chained-translation-manager",
     "description": "A translation manager tool for Laravel Filament, that makes use of the Laravel Chained Translator.",
     "keywords": [
         "Statikbe",
@@ -22,7 +22,7 @@
     ],
     "require": {
         "php": "^8.1|^8.2|^8.3|^8.4",
-        "filament/filament": "^3.0",
+        "filament/filament": "^4.0",
         "illuminate/contracts": "^10.0|^11.0|^12.0",
         "spatie/laravel-package-tools": "^1.14.0",
         "statikbe/laravel-chained-translator": "^2.5"

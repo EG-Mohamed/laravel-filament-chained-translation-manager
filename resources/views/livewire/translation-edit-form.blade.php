@@ -1,4 +1,4 @@
-<x-filament::card>
+<x-filament::section>
     <p class="font-bold">{{ $group . ' - '. $translationKey }}</p>
     <div class="text-base grid">
         @foreach($locales as $locale)
@@ -83,4 +83,4 @@
             </div>
         @endforeach
     </div>
-</x-filament::card>
+</x-filament::section>
