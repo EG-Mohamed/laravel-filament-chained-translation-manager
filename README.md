@@ -42,7 +42,7 @@ content managers, and we want to avoid that they add unnecessary translation key
 1. You can install the package via Composer:
 
 ```bash
-composer require statikbe/laravel-filament-chained-translation-manager
+composer require eg-mohamed/laravel-filament-chained-translation-manager
 ```
 
 2. Register the plugin for the Filament Panels you want:
